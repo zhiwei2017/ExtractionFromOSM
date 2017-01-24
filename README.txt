@@ -1,3 +1,8 @@
+Generate executable file:
+copy the code and run make in terminal.
+
+To run this program you need to download a osm file from http://download.geofabrik.de
+
 the command format:
 ./ExtractionFromOSMMain [Address] [Mode] [ExtendRadius]
 
