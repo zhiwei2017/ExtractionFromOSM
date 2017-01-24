@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.4.3 (29715 thorn-02.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <bounds minlat="0.0002" minlon="0.0002" maxlat="0.0012" maxlon="0.0012"/>
+ <node id="1" visible="true" version="18" changeset="4285661" timestamp="2010-03-31T14:14:15Z" user="skyper" uid="152744" lat="0.0002" lon="0.0002"/>
+ <node id="2" visible="true" version="11" changeset="4161485" timestamp="2010-03-18T14:00:03Z" user="skyper" uid="152744" lat="0.0004" lon="0.0004"/>
+ <node id="3" visible="true" version="3" changeset="1819250" timestamp="2009-07-13T19:02:41Z" user="q_un_go" uid="11374" lat="0.0006" lon="0.0006"/>
+ <node id="4" visible="true" version="15" changeset="18587410" timestamp="2013-10-28T16:42:59Z" user="skyper" uid="152744" lat="0.0008" lon="0.0008"/>
+ <node id="5" visible="true" version="9" changeset="18325159" timestamp="2013-10-13T01:43:29Z" user="skyper" uid="152744" lat="0.0010" lon="0.0010"/>
+ <node id="6" visible="true" version="6" changeset="18239381" timestamp="2013-10-08T00:46:53Z" user="skyper" uid="152744" lat="0.0012" lon="0.0012"/>
+ <node id="7" visible="true" version="4" changeset="17463331" timestamp="2013-08-22T23:10:12Z" user="skyper" uid="152744" lat="0.0005" lon="0.0005"/>
+ <node id="8" visible="true" version="4" changeset="8905139" timestamp="2011-08-02T20:55:56Z" user="skyper" uid="152744" lat="0.0007" lon="0.0007"/>
+ <way id="11" visible="true" version="2" changeset="6540621" timestamp="2010-12-04T17:25:32Z" user="skyper" uid="152744">
+  <nd ref="1"/>
+  <nd ref="2"/>
+ </way>
+ <way id="22" visible="true" version="2" changeset="6540621" timestamp="2010-12-04T17:25:32Z" user="skyper" uid="152744">
+  <nd ref="2"/>
+  <nd ref="3"/>
+ </way>
+ <way id="33" visible="true" version="2" changeset="6540621" timestamp="2010-12-04T17:25:32Z" user="skyper" uid="152744">
+  <nd ref="3"/>
+  <nd ref="4"/>
+ </way>
+ <way id="44" visible="true" version="2" changeset="6540621" timestamp="2010-12-04T17:25:32Z" user="skyper" uid="152744">
+  <nd ref="4"/>
+  <nd ref="5"/>
+ </way>
+ <way id="55" visible="true" version="2" changeset="6540621" timestamp="2010-12-04T17:25:32Z" user="skyper" uid="152744">
+  <nd ref="5"/>
+  <nd ref="6"/>
+ </way>
+ <way id="66" visible="true" version="2" changeset="6540621" timestamp="2010-12-04T17:25:32Z" user="skyper" uid="152744">
+  <nd ref="7"/>
+  <nd ref="8"/>
+ </way>
+ <relation id="111" visible="true" version="25" changeset="22172222" timestamp="2014-05-06T18:08:30Z" user="Geoflo" uid="33992">
+  <member type="way" ref="11" role=""/>
+  <member type="way" ref="22" role=""/>
+  <member type="way" ref="33" role=""/>
+  <member type="way" ref="44" role=""/>
+  <member type="way" ref="55" role=""/>
+  <tag k="admin_level" v="11"/>
+  <tag k="route" v="railway"/>
+  <tag k="name" v="Altstadt-Ring"/>
+  <tag k="type" v="boundary"/>
+ </relation>
+</osm>
