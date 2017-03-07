@@ -31,6 +31,8 @@ make
 
 
 you have a *germany.osm* file in the directory germany.
+
 you can run the program in *non-extend mode* like:
 `./ExtractionFromOSMMain germany/germany.osm N` or `./ExtractionFromOSMMain germany/germany.osm`
+
 If you run the program with `./ExtractionFromOSMMain germany/germany.osm 50`, the program will run in non-extend mode.
