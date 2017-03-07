@@ -6,7 +6,7 @@ Built a network using public-transit data extracted from OpenStreetMap data in E
 
 ##Results
 there are four pictures which show the results, you can find them inthe folder
->**ExtractionFromOSM/display results**
+>`ExtractionFromOSM/display results`
 
 ##Run the program
 To run this program you need to download a osm file from [OpenStreetMap](http://download.geofabrik.de)
@@ -30,17 +30,7 @@ make
 **Example:**
 
 
-you have a germany.osm file in the directory germany.
+you have a *germany.osm* file in the directory germany.
 you can run the program in *non-extend mode* like:
-```
-./ExtractionFromOSMMain germany/germany.osm N
-```
-or
-```
-./ExtractionFromOSMMain germany/germany.osm
-```
-If you run the program with 
-```
-./ExtractionFromOSMMain germany/germany.osm 50
-```
-, the program will run in non-extend mode.
+`./ExtractionFromOSMMain germany/germany.osm N` or `./ExtractionFromOSMMain germany/germany.osm`
+If you run the program with `./ExtractionFromOSMMain germany/germany.osm 50`, the program will run in non-extend mode.
