@@ -1,10 +1,14 @@
 Generate executable file:
-copy the code and run make in terminal.
+```
+git clone https://github.com/zhiwei2017/ExtractionFromOSM
+```
 
 To run this program you need to download a osm file from http://download.geofabrik.de
 
 the command format:
+```
 ./ExtractionFromOSMMain [Address] [Mode] [ExtendRadius]
+```
 
 Address: paricular address of osm-file
 Mode: use the extend mode (Y/N). The default value is "N"
@@ -13,7 +17,16 @@ ExtendRadius: if using the extend mode, the nodes and ways are loaded into graph
 
 Example: you have a germany.osm file in the directory germany.
 you can run the program in non-extend mode like:
+```
 ./ExtractionFromOSMMain germany/germany.osm N
+```
 or
+```
 ./ExtractionFromOSMMain germany/germany.osm
-If you run the program with "./ExtractionFromOSMMain germany/germany.osm 50", the program will run in non-extend mode.
+```
+
+If you run the program with 
+```
+./ExtractionFromOSMMain germany/germany.osm 50
+```
+, the program will run in non-extend mode.
