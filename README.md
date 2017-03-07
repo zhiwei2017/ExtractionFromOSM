@@ -9,8 +9,9 @@ there are four pictures which show the results, you can find them inthe folder
 >**ExtractionFromOSM/display results**
 
 ##Run the program
-To run this program you need to download a osm file from http://download.geofabrik.de
-**get the code**
+To run this program you need to download a osm file from [OpenStreetMap](http://download.geofabrik.de)
+
+**Get the code**
 ```
 git clone https://github.com/zhiwei2017/ExtractionFromOSM
 ```
@@ -27,6 +28,8 @@ make
 
 
 **Example:**
+
+
 you have a germany.osm file in the directory germany.
 you can run the program in *non-extend mode* like:
 ```
