@@ -1,14 +1,14 @@
-#ExtractionFromOSM
+# ExtractionFromOSM
 This is the source code of my bachelor thesis "public-transit data extraction from OpenStreetMap Data"
 
-##Introduction
+## Introduction
 Built a network using public-transit data extracted from OpenStreetMap data in Europe and Planet, then completed its inside information through solving various problems, such as wrong orders, existence of gaps, missing labels, poor structure, using bidirectional A*, A*, Dijkstra, SVMs, R-Tree, DFS, finally transformed the network into a General Transit Feed Specification feed which simulates a transport system and can be displayed in TRAVIC. This feed and software OpenTripPlaner together build a public-transit- combination query system for the whole Europe as well as the Planet.
 
-##Results
+## Results
 there are four pictures which show the results, you can find them inthe folder
 >`ExtractionFromOSM/display results`
 
-##Run the program
+## Run the program
 To run this program you need to download a osm file from [OpenStreetMap](http://download.geofabrik.de)
 
 **Get the code**
